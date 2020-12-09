@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            background-color: rgb(241, 240, 255);
+        }
+        h1{
+            font-family:"Moonbright Demo";
+            font-size: 40px;
+        }
+        h2{
+            font-family: "Please write me a song";
+            font-size: 30px;
+            font-weight: 900;
+        }
+        
+        .btn{
+            background-color: rgb(219, 237, 255);
+            font-family: "Arcadedemo";
+            font-size: 25px;
+        }
+        .btn:hover{
+            background-color: rgb(129, 152, 170);
+        }
+        #nombre, #email, #contraseña{
+            background-color: antiquewhite;
+            font-family: "DK Pimpernel";
+            font-size: 20px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body><CENTER>
+    <img src="LogoAmazon.png" width="200" height="95">
+    <form action=" " method="POST">
+    <h1>Crea una cuenta</h1>
+    <h2>Nombre</h2>
+    <input type="text" id="nombre" size="50" maxlength="40" 
+    required placeholder="Nombre">
+    <h2>Correo Electrónico</h2>
+    <input type="email" id="email" size="50" required 
+    placeholder="user@email.com">
+    <h2>Contraseña</h2>
+    <input type="password" id="contraseña" size="50" 
+    maxlength="8" required placeholder="Al menos 6 caracteres"><br>
+    <br><input type="submit" class="btn" value="Crea tu cuenta en Amazon"> 
+    </form></CENTER>
+</body>
